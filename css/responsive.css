@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin: 0 15px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .container {
+    margin: 0 15px;
+  }
+  html {
+    font-size: 65%;
+  }
+  nav#mainNav {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  section.about .aboutMeImage {
+    height: 50rem;
+    width: 40rem;
+  }
+  section.about .container {
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 61%;
+  }
+  p,
+  a {
+    font-size: 1.6rem;
+  }
+  section.about .container {
+    gap: 3rem;
+  }
+  section.services .cardWrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+  }
+  section.reviews .slider .slide span {
+    font-size: 1.1rem;
+  }
+  section.work .cardWrapper,
+  section.blog .cardWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .right h1 {
+    font-size: 3rem;
+  }
+  .hero .right h6 {
+    font-size: 1.7rem;
+  }
+  p,
+  a {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    margin: 0 10px;
+  }
+  html {
+    font-size: 48.5%;
+  }
+  p,
+  a {
+    font-size: 1.8rem;
+  }
+  .hero {
+    position: relative;
+  }
+  .hero .right {
+    position: absolute;
+    top: 14%;
+    left: 6%;
+    background: linear-gradient(90deg, transparent, #161616d1);
+    width: 88%;
+    height: 100%;
+    padding-top: 22%;
+  }
+  .hero .left img {
+    margin-left: 160px;
+  }
+  section.about .container {
+    flex-direction: column;
+  }
+  section.services .cardWrapper,
+  section.work .cardWrapper,
+  section.blog .cardWrapper,
+  section.contact .inputWrap1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  section.services .cardWrapper,
+  section.work .cardWrapper,
+  section.blog .cardWrapper {
+    padding: 0 7.5rem;
+  }
+  section.reviews .slider .slide {
+    padding: 0 4rem;
+  }
+  section.contact .cardWrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    margin: 0 10px;
+  }
+  html {
+    font-size: 39.5%;
+  }
+}
